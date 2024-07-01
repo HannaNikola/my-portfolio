@@ -9,6 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="favicon" href="../../public/favicon.ico" />
+      </head>
       <body>{children}</body>
     </html>
   );
