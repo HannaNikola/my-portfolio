@@ -1,0 +1,85 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+
+li{
+  list-style: none;
+}
+
+
+
+body {
+  background-color: #0C0C0D;
+  color: #C8C8C8;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+
+
+
+.text-h1 {
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.text-h2 {
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.text-nunito {
+  font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-secondary{
+  
+  font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-accent {
+font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.custom-cvg-border{
+  @apply border rounded-full bg-customBorderSvg ;
+}
+
+
+.custom-card {
+@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground;
+}
+
+.icons-border{
+ @apply border rounded-full p-2 mr-2 border-customBorderSvg bg-customBorderSvg ;
+}
+
+.button-styles{
+@apply border border-slate-50 rounded-full text-nunito text-stone-950 bg-slate-50 py-3;
+}
