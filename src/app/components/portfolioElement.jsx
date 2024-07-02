@@ -17,11 +17,11 @@ export const PortfolioElement = () => {
                         </Link>
                     </button>
                 </div>
-                <div className="w-60"><SocialLink /></div>
+                <div className="w-60 laptop:w-96"><SocialLink /></div>
                 
             </div>
 
-            <h2 className="flex text-center text-nunito-second   mb-20">
+            <h2 className="flex justify-center text-center text-nunito-second  mb-20 ">
                 &lt; This is where you can get to know me a little more and see the projects in which I
                 participated /&gt;
             </h2>
@@ -30,7 +30,7 @@ export const PortfolioElement = () => {
             </div>
 
             <div>
-                <ul>
+                <ul className='grid gap-10 sm:grid-cols-1 laptop:grid-cols-2 '>
                     {projects.map((project) => (
                         <li key={project.id} className="list-none mb-10 custom-card">
                             <h2 className="mb-2.5 text-customTextAccent text-secondary ">
@@ -42,8 +42,8 @@ export const PortfolioElement = () => {
                                 src={project.imageUrl}
                                 alt="portfolio Picture"
                                 layout="responsive"
-                                width={150}
-                                height={150}
+                                width= '150'
+                                height= '150'
                                 priority
                                 style={{ objectFit: 'cover' }}
                                 />
