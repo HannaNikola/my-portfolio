@@ -50,7 +50,14 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+.text-nunito-second{
+font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
+}
 .text-secondary{
   
   font-family: Raleway;
@@ -73,7 +80,11 @@ font-family: Raleway;
 
 
 .custom-card {
-@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground;
+@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground drop-shadow-xl custom-card-shadow;
+}
+
+.custom-card-shadow {
+  @apply drop-shadow-[0_4px_6px_rgba(255,255,255,0.1)];
 }
 
 .icons-border{
@@ -83,3 +94,8 @@ font-family: Raleway;
 .button-styles{
 @apply border border-slate-50 rounded-full text-nunito text-stone-950 bg-slate-50 py-3;
 }
+
+
+  .btn {
+      @apply bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 text-customTextAccent font-bold py-2 px-4 rounded;
+    }
