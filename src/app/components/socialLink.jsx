@@ -19,7 +19,7 @@ export const SocialLink = () => {
                 rel="noopener noreferrer"
                
               >
-              <PiLinkedinLogoLight className=" fill-violet-300 w-6 h-6 cursor-pointer" />
+              <PiLinkedinLogoLight className=" fill-violet-300 w-6 h-6 cursor-pointer active-link " />
               </a>
            
           </li>
@@ -31,7 +31,7 @@ export const SocialLink = () => {
                 rel="noopener noreferrer"
                
               >
-              <FaGithub className=" fill-violet-300 w-6 h-6 cursor-pointer" />
+              <FaGithub className=" fill-violet-300 w-6 h-6 cursor-pointer active-link " />
               </a>
             
           </li>
@@ -41,7 +41,7 @@ export const SocialLink = () => {
                 href="mailto:h.nikolaienko32@gmail.com"
                 
               >
-              <MdOutlineEmail className=" fill-violet-300 w-6 h-6 cursor-pointer" /> 
+              <MdOutlineEmail className=" fill-violet-300 w-6 h-6 cursor-pointer active-link " /> 
               </a>
             
           </li>

@@ -14,7 +14,7 @@ export const ButtonLoadCV = () => {
 
     return (
         <div>
-            <button onClick={handleDownload} className="mb-24 py-2 px-6 button-styles">
+            <button onClick={handleDownload} className="mb-24 py-2 px-6 button-styles active">
                 Download CV
             </button>
         </div>

@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import projects from '../data/projects';
-import TestyFood from '../../../public/images/tasty-treats.jpg';
 import Link from 'next/link';
 import { IoChevronBackOutline } from 'react-icons/io5';
 import { ButtonLoadCV } from './buttonCV';
@@ -9,7 +8,7 @@ import { SocialLink } from './socialLink';
 export const PortfolioElement = () => {
     return (
         <div>
-            <div className="flex justify-between items-center mt-3 mb-32">
+            <div className="flex justify-between items-center mt-5 mb-32">
                 <div className="">
                     <button>
                         <Link className="flex items-center" href="/">
@@ -37,16 +36,18 @@ export const PortfolioElement = () => {
                             <h2 className="mb-2.5 text-customTextAccent text-secondary ">
                                 {project.title}
                             </h2>
-
+                            <div className="w-40 h-40 mb-2.5 border rounded overflow-hidden">
                             <Image
                                 className="mb-2.5 border rounded"
-                                src={TestyFood}
+                                src={project.imageUrl}
                                 alt="portfolio Picture"
-                                width="150"
-                                height="150"
+                                layout="responsive"
+                                width={150}
+                                height={150}
                                 priority
                                 style={{ objectFit: 'cover' }}
-                            />
+                                />
+                            </div>
                             <a
                                 className="underline decoration-1 text-customTextAccent text-accent"
                                 href={project.githubUrl}

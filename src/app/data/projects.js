@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: 'Calculates the daily amount of water',
-    imageUrl: '/project1.png',
+    imageUrl: '/images/water.jpg',
     description:
       'Adaptive design, application that calculates the daily amount of water consumption. Swagger documentation available http://localhost:8080/api-docs/ ',
     repository:
@@ -18,7 +18,7 @@ const projects = [
   {
     id: 2,
     title: 'Tasty Treats',
-    imageUrl: '/project2.png',
+    imageUrl: '/images/food-recepi.jpg',
     description: 'Adaptive design,  an application with cooking recipes.',
     repository: 'https://github.com/HannaNikola/project-team-12',
     githubUrl: 'https://tamia5.github.io/project-team-12/',
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 3,
     title: 'Food Delivery',
-    imageUrl: '/project3.png',
+    imageUrl: '/images/food-delivery.jpg',
     description: 'Adaptive design, a food delivery application.',
     repository: 'https://github.com/HannaNikola/food-delivery-project',
     githubUrl: 'https://ingvar789.github.io/food-delivery-project/',
@@ -34,19 +34,19 @@ const projects = [
   {
     id: 4,
     title: 'Rental car',
-    imageUrl: '/project4.png',
+    imageUrl: '/images/rental-car.jpg',
     description: 'Desktop-only design for a rental camper application.',
     repository: 'https://github.com/HannaNikola/Rental_Car_Front_End',
-    githubUrl: 'https://hannanikola.github.io/Rental_Car_Front_End/',
+    githubUrl: 'https://hannanikola.github.io/goit-react-hw-05-movies/',
   },
-  // {
-  //   id: 5,
-  //   title: 'WebStudio',
-  //   imageUrl: '/project5.png',
-  //   description: 'It was my first project, Adaptive design.',
-  //   repository: 'https://hannanikola.github.io/goit-markup-hw-08/',
-  //   githubUrl: 'https://hannanikola.github.io/goit-markup-hw-08/',
-  // },
+  {
+    id: 5,
+    title: 'Trending movies today',
+    imageUrl: '/images/movie.jpg',
+    description: 'It was my first project, Adaptive design.',
+    repository: 'https://github.com/HannaNikola/goit-react-hw-05-movies',
+    githubUrl: 'https://hannanikola.github.io/goit-react-hw-05-movies/',
+  },
 ];
 
 export default projects;
