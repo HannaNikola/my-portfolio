@@ -36,16 +36,15 @@ export const PortfolioElement = () => {
                             <h2 className="mb-2.5 text-customTextAccent text-secondary ">
                                 {project.title}
                             </h2>
-                            <div className="w-40 h-40 mb-2.5 border rounded overflow-hidden">
-                            <Image
-                                className="mb-2.5 border rounded"
-                                src={project.imageUrl}
-                                alt="portfolio Picture"
-                                layout="responsive"
-                                width= '150'
-                                height= '150'
-                                priority
-                                style={{ objectFit: 'cover' }}
+                            <div className=" relative w-40 h-40 mb-2.5 border rounded overflow-hidden">
+                                <Image
+                                    className="mb-2.5 border rounded"
+                                    src={project.imageUrl}
+                                    alt="portfolio Picture"
+                                    fill
+                                    priority
+                                    sizes='160px, 160px'
+                                    
                                 />
                             </div>
                             <a
