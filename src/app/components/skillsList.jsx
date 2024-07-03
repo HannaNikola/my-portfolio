@@ -21,9 +21,9 @@ import { SiTypescript } from "react-icons/si";
 export const SkillList = () => {
 
     return (
-        <div className="border border-customGray   rounded-xl  mb-28 px-3 p-7 laptop:w-[500px]">
+        <div className="border border-customGray   rounded-xl  mb-28 px-3 p-7 ">
             <h2 className=" text-center text-nunito laptop:text-2xl mb-3.5">TECH SKILLS</h2>
-            <ul className=" ml-4 ">
+            <ul className=" ml-4 grid gap-10 sm:grid-cols-1 laptop:grid-cols-3  ">
                 <li className="flex items-center mb-3.5 "><div className="icons-border"><IoLogoJavascript className="w-5 h-5  fill-yellow-400" /></div>Javascript</li>
                 <li className="flex items-center mb-3.5"><div className="icons-border"><FaReact className="w-5 h-5 fill-cyan-400" /></div>React</li>
                 <li className="flex items-center mb-3.5"><div className="icons-border"><SiRedux className="w-5 h-5 fill-violet-500" /></div>Redux</li>
