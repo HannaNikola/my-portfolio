@@ -6,11 +6,11 @@ import { MdOutlineEmail } from "react-icons/md";
 
 export const SocialLink = () => {
     return (
-      <div className="border  border-backgroundSecondary rounded-full p-4 flex items-center justify-between  bg-backgroundSecondary ">
+      <div className="border  border-backgroundSecondary rounded-full p-4 flex items-center justify-between  bg-backgroundSecondary laptop:px-6 ">
      
-        <h3 className="text-left text-textSecondaryColor">Follow me</h3>
+        <h3 className="text-left text-textSecondaryColor laptop:text-xl ">Follow me</h3>
         
-        <ul className=" flex space-x-4">
+        <ul className=" flex space-x-4 laptop:space-x-6 ">
           <li>
             
               <a

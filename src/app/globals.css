@@ -26,6 +26,7 @@ body {
 }
 
 
+/* Font */
 
 .text-h1 {
   font-family: Raleway;
@@ -33,6 +34,8 @@ body {
   font-style: normal;
   font-weight: 500;
 }
+
+
 
 .text-h2 {
   font-family: Raleway;
@@ -60,6 +63,7 @@ font-family: Nunito;
 
 }
 
+
 .text-secondary{
   
   font-family: Raleway;
@@ -67,7 +71,7 @@ font-family: Nunito;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
+} 
 .text-accent {
 font-family: Raleway;
   font-size: 16px;
@@ -76,17 +80,23 @@ font-family: Raleway;
   line-height: normal;
 }
 
+
+/* custom styles for card and border  */
+
 .custom-cvg-border{
+
   @apply border rounded-full bg-customBorderSvg ;
 }
 
 
 .custom-card {
-@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground drop-shadow-xl custom-card-shadow;
+@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground drop-shadow-md custom-card-shadow;
 }
 
 .custom-card-shadow {
   @apply drop-shadow-[0_4px_6px_rgba(255,255,255,0.1)];
+
+  
 }
 
 .icons-border{
@@ -97,6 +107,7 @@ font-family: Raleway;
 @apply border border-slate-50 rounded-full text-nunito text-stone-950 bg-slate-50 py-3;
 }
 
+/* styles for active link  */
 
   .active {
    @apply  hover:bg-slate-300  active:bg-slate-300  focus:ring  focus:ring-slate-300;

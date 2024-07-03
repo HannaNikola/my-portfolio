@@ -8,24 +8,24 @@ import { SocialLink } from './socialLink';
 export const PortfolioElement = () => {
     return (
         <div>
-            <div className="flex justify-between items-center mt-5 mb-32">
+            <div className="flex justify-between items-center mt-5 mb-32 laptop:mb-56 laptop:mt-9 ">
                 <div className="">
                     <button>
-                        <Link className="flex items-center" href="/">
-                            <IoChevronBackOutline className="w-5 h-5" />
+                        <Link className="flex items-center laptop:text-xl" href="/">
+                            <IoChevronBackOutline className="w-5 h-5 laptop:w-6 laptop:h-6" />
                             Back
                         </Link>
                     </button>
                 </div>
-                <div className="w-60 laptop:w-96"><SocialLink /></div>
+                <div className="w-60 laptop:w-[800px]"><SocialLink /></div>
                 
             </div>
 
-            <h2 className="flex justify-center text-center text-nunito-second  mb-20 ">
+            <h2 className="flex justify-center text-center text-nunito-second  mb-20  laptop:text-2xl ">
                 &lt; This is where you can get to know me a little more and see the projects in which I
                 participated /&gt;
             </h2>
-            <div className="flex justify-center">
+            <div className="flex justify-center laptop:mb-36">
                 <ButtonLoadCV />
             </div>
 

@@ -14,39 +14,28 @@ export const Main = () => {
 
     return (
         <div >
-            {/* <div className="container mx-auto">
-            <div className=" flex justify-center mt-20  mb-20" >
-                <Image
-                    src={SvgAvatar}
-                    alt="Profile Picture"
-                    width='200'
-                    height='200'
-                    priority
-                />
-
-            </div>
-            <h1 className="text-center mb-6 text-customTextAccent text-h1 ">Hi, I`m Hanna</h1>
-            <p className="mb-24">I am a young <span className="text-customTextAccent">Full Stack Developer </span>and I am deeply passionate about development and creating new, user-friendly, and useful applications.
-                I love solving new challenges and always seek opportunities to improve my skills.</p>
-            </div> */}
 
             <div className="container mx-auto px-4">
-                <div className="flex flex-col laptop:flex-row justify-between items-center mt-20 mb-20">
-                    <div className="text-center laptop:text-left laptop:mr-10 laptop:w-[662px]">
-                        <h1 className="mb-6 text-customTextAccent text-h1">Hi, I m Hanna</h1>
-                        <p className="mb-24">
-                            I am a young <span className="text-customTextAccent">Full Stack Developer</span> and I am deeply passionate about development and creating new, user-friendly, and useful applications.
+                <div className="flex flex-col laptop:flex-row justify-between items-center mt-20 laptop:mt-64  mb-20">
+                    <div className="flex justify-center mb-10 laptop:mb-0 laptop:w-[390px] laptop:ml-[-20px] order-1 laptop:order-2">
+                        <div className="w-48 h-48 laptop:w-[390px] laptop:h-[390px]">
+                            <Image
+                                src={SvgAvatar} 
+                                alt="Profile Picture"
+                                layout="responsive"
+                                width={390}
+                                height={390}
+                                priority
+                                className="object-cover"
+                            />
+                        </div>
+                    </div>
+                    <div className="text-center laptop:text-left laptop:mr-10 laptop:w-[662px] order-2 laptop:order-1">
+                        <h1 className="mb-6 text-customTextAccent text-h1 laptop:text-7xl">Hi, I m Hanna</h1>
+                        <p className="mb-24 laptop:text-2xl">
+                            I am a young <span className="text-customTextAccent laptop:text-2xl ">Full Stack Developer</span> and I am deeply passionate about development and creating new, user-friendly, and useful applications.
                             I love solving new challenges and always seek opportunities to improve my skills.
                         </p>
-                    </div>
-                    <div className="flex justify-center mb-10 laptop:mb-0 ">
-                        <Image
-                            src={SvgAvatar}
-                            alt="Profile Picture"
-                            width={200}
-                            height={200}
-                            priority
-                        />
                     </div>
                 </div>
             </div>
@@ -56,11 +45,11 @@ export const Main = () => {
             <div className="flex justify-center" >
                 <ButtonLoadCV />
             </div>
-            <div className="flex justify-center mb-24" >
-                <a className="flex items-center " href="tel:+32492326638"><LuPhone className="mr-1 " />+32 492 32 66 38</a>
+            <div className="flex justify-center mb-24 laptop:mb-56" >
+                <a className="flex items-center  laptop:text-2xl " href="tel:+32492326638"><LuPhone className="mr-1 " />+32 492 32 66 38</a>
             </div>
             
-            <p className="text-h2 text-center  mb-24">These are the technologies that I’ve been using</p>
+            <p className="text-h2 text-center laptop:text-6xl mb-24 laptop:mb-36">These are the technologies that I’ve been using</p>
             <SkillList />
             <div className="mb-24">
                 <SocialLink  />
