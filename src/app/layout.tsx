@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="favicon" href="../../public/favicon.ico" />
+        <link rel="favicon" href="/images/favicon.ico" />
       </head>
       <body>{children}</body>
     </html>
