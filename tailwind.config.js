@@ -16,7 +16,6 @@ module.exports = {
         tablet: '32px',
         laptop: '64px',
         desktop: '8opx',
-        
       },
 
       minWidth: '100%',
@@ -25,7 +24,6 @@ module.exports = {
         tablet: '100%',
         laptop: '960px',
         desktop: '1140px',
-        
       },
     },
     extend: {

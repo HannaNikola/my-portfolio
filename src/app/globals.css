@@ -90,14 +90,9 @@ font-family: Raleway;
 
 
 .custom-card {
-@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground drop-shadow-md custom-card-shadow;
+@apply border rounded border-customCardBackground mb-8 px-3 py-3  bg-customCardBackground ;
 }
 
-.custom-card-shadow {
-  @apply drop-shadow-[0_4px_6px_rgba(255,255,255,0.1)];
-
-  
-}
 
 .icons-border{
  @apply border rounded-full p-2 mr-2 border-customBorderSvg bg-customBorderSvg ;
