@@ -37,13 +37,14 @@ const projects = [
     imageUrl: '/images/rental-car.jpg',
     description: 'Desktop-only design for a rental camper application.',
     repository: 'https://github.com/HannaNikola/Rental_Car_Front_End',
-    githubUrl: 'https://hannanikola.github.io/goit-react-hw-05-movies/',
+    githubUrl: 'https://hannanikola.github.io/Rental_Car_Front_End/',
   },
   {
     id: 5,
     title: 'Trending movies today',
     imageUrl: '/images/movie.jpg',
-    description: 'It was my first project, Adaptive design.',
+    description:
+      'Desktop-only design.The application shows trending movies for today. In the search, you can select movies, read comments, and also see the actors starring in the movie.',
     repository: 'https://github.com/HannaNikola/goit-react-hw-05-movies',
     githubUrl: 'https://hannanikola.github.io/goit-react-hw-05-movies/',
   },
