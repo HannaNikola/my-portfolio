@@ -12,20 +12,20 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: '15px',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '5rem',
+        DEFAULT: '20px',
+        tablet: '32px',
+        laptop: '64px',
+        desktop: '8opx',
+        
       },
 
       minWidth: '100%',
       maxWidth: {
         DEFAULT: '100%',
-        sm: '100%',
-        lg: '960px',
-        xl: '1140px',
-        '2xl': '1320px',
+        tablet: '100%',
+        laptop: '960px',
+        desktop: '1140px',
+        
       },
     },
     extend: {
