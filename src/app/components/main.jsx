@@ -32,7 +32,7 @@ export const Main = () => {
                     <div className="text-center laptop:text-left laptop:mr-10 laptop:w-[662px] order-2 laptop:order-1">
                         <h1 className="mb-6 tablet:mb-7 text-customTextAccent text-h1 laptop:text-7xl">Hi, I m Hanna</h1>
                         <p className="mb-24 laptop:text-2xl">
-                            I am a young <span className="text-customTextAccent laptop:text-2xl ">Full Stack Developer</span> and I am deeply passionate about development and creating new, user-friendly, and useful applications.
+                            I am <span className="text-customTextAccent laptop:text-2xl ">Full Stack Developer</span> and I am deeply passionate about development and creating new, user-friendly, and useful applications.
                             I love solving new challenges and always seek opportunities to improve my skills.
                         </p>
                     </div>
