@@ -16,14 +16,13 @@ module.exports = {
         sm: '2rem',
         lg: '4rem',
         xl: '5rem',
-        '2xl': '6rem',
+        '2xl': '5rem',
       },
 
       minWidth: '100%',
       maxWidth: {
         DEFAULT: '100%',
         sm: '100%',
-        md: '720px',
         lg: '960px',
         xl: '1140px',
         '2xl': '1320px',
@@ -39,7 +38,6 @@ module.exports = {
         customTextAccent: '#B292FF',
       },
     },
-  
   },
   plugins: [],
 };

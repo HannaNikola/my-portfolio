@@ -13,9 +13,9 @@ export const Main = () => {
 
 
     return (
-        <div >
-
-            <div className="container mx-auto px-4">
+        
+            <div>
+            <div >
                 <div className="flex flex-col laptop:flex-row justify-between items-center mt-20 laptop:mt-64  mb-20">
                     <div className="flex justify-center mb-10 laptop:mb-0 laptop:w-[390px] laptop:ml-[-20px] order-1 laptop:order-2">
                             <div className=" relative w-48 h-48 laptop:w-[390px] laptop:h-[390px]">
