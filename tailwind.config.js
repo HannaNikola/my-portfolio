@@ -25,6 +25,10 @@ module.exports = {
         laptop: '960px',
         desktop: '1140px',
       },
+      fontFamily: {
+        sans: ['Raleway', 'sans-serif'],
+        nunito: ['Nunito Sans', 'sans-serif'],
+      },
     },
     extend: {
       colors: {

@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+  html {
+    background-color: #0C0C0D;
+    color: #C8C8C8;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+  }
+}
+
 
 * {
   box-sizing: border-box;
@@ -15,69 +29,44 @@ li{
 
 
 
-body {
-  background-color: #0C0C0D;
-  color: #C8C8C8;
-  font-family: Raleway;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  
-}
-
-
 /* Font */
 
+
+
 .text-h1 {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
 }
 
-
-
 .text-h2 {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
-
 
 .text-nunito {
-  font-family: Nunito;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.text-nunito-second{
-font-family: Nunito;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-}
-
-
-.text-secondary{
-  
-  font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-} 
-.text-accent {
-font-family: Raleway;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
-  font-style: normal;
+  font-weight: 400;
+}
+
+.text-nunito-second {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text-secondary {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-accent {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   font-weight: 300;
-  line-height: normal;
 }
 
 
