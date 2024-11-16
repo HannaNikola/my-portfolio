@@ -5,7 +5,7 @@ import { ButtonLoadCV } from './buttonCV';
 import { SkillList } from './skillsList';
 import { SocialLink } from './socialLink';
 import { LuPhone } from "react-icons/lu";
-// import { EducationEl } from './educationEl'
+import { Experience  } from './expiriense';
 
 
 export const Main = () => {
@@ -50,9 +50,9 @@ export const Main = () => {
             
             <p className="text-h2 text-center laptop:text-6xl mb-24 laptop:mb-36">These are the technologies that I’ve been using</p>
             <SkillList />
-            {/* <div>
-                <EducationEl />
-            </div> */}
+            <div>
+            <Experience/>
+            </div>
             <div className="mb-24">
                 <SocialLink  />
             </div>
