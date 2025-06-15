@@ -23,7 +23,7 @@ export const SkillList = () => {
 
     return (
         <div className="border border-customGray   rounded-xl  mb-28 px-3 p-7 ">
-            <h2 className=" text-center text-nunito laptop:text-2xl tablet:mb-10 mb-3.5">TECH SKILLS</h2>
+            <h2 className=" text-center text-h3 laptop:text-2xl tablet:mb-10 mb-3.5">TECH SKILLS</h2>
             <ul className=" ml-4 grid gap-10  laptop:grid-cols-3 tablet:grid-cols-2 ">
                 <li className="flex items-center mb-3.5 "><div className="icons-border"><IoLogoJavascript className="w-5 h-5  fill-yellow-400" /></div>Javascript</li>
                 <li className="flex items-center mb-3.5"><div className="icons-border"><FaReact className="w-5 h-5 fill-cyan-400" /></div>React</li>

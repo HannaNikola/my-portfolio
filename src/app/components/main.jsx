@@ -6,6 +6,7 @@ import { SkillList } from './skillsList';
 import { SocialLink } from './socialLink';
 import { LuPhone } from "react-icons/lu";
 import { Experience  } from './expiriense';
+import {Languages} from './languages'
 
 
 export const Main = () => {
@@ -52,6 +53,9 @@ export const Main = () => {
             <SkillList />
             <div>
             <Experience/>
+            </div>
+            <div>
+                <Languages/>
             </div>
             <div className="mb-24">
                 <SocialLink  />
