@@ -3,6 +3,20 @@ import { describe } from "node:test";
 const projects = [
   {
     id: 1,
+    title: 'Calendar',
+    imageUrl: '/images/calendar.jpg',
+    description: 'This is my pet project that Im currently working on — a calendar application for creating events. At the moment, it includes functionality for creating, deleting, and updating events, drag and drop, and viewing events by year, week, and month. Adaptive design. The functionality will continue to expand.For this project, I built the backend using Node.js, with MongoDB as the database, and Swagger documentation for testing API requests. The frontend is built with React and Redux.'
+     ,
+    repository:
+      'https://github.com/HannaNikola/calendar',
+    backendRepository:
+      'https://github.com/HannaNikola/Calendar_back_end',
+    swagger: 'https://swagger-calendar.onrender.com/api-docs/',
+    githubUrl:
+      'https://calendar-rho-seven.vercel.app/',
+  },
+  {
+    id: 2,
     title: 'Calculates the daily amount of water',
     imageUrl: '/images/water.jpg',
     description:
@@ -16,7 +30,7 @@ const projects = [
       'https://vladyslavkshenin.github.io/rtfm_water_tracker_frontend/',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Tasty Treats',
     imageUrl: '/images/food-recepi.jpg',
     description: 'Adaptive design,  an application with cooking recipes.',
@@ -24,7 +38,7 @@ const projects = [
     githubUrl: 'https://tamia5.github.io/project-team-12/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Food Delivery',
     imageUrl: '/images/food-delivery.jpg',
     description: 'Adaptive design, a food delivery application.',
@@ -32,7 +46,7 @@ const projects = [
     githubUrl: 'https://ingvar789.github.io/food-delivery-project/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Rental car',
     imageUrl: '/images/rental-car.jpg',
     description: 'Desktop-only design for a rental camper application.',
@@ -40,7 +54,7 @@ const projects = [
     githubUrl: 'https://hannanikola.github.io/Rental_Car_Front_End/',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Trending movies today',
     imageUrl: '/images/movie.jpg',
     description:
